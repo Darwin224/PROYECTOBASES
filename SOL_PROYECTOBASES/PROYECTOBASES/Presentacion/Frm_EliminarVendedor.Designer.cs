@@ -51,6 +51,7 @@
             this.btnEliminarVendedor.TabIndex = 4;
             this.btnEliminarVendedor.Text = "Eliminar";
             this.btnEliminarVendedor.UseVisualStyleBackColor = true;
+            this.btnEliminarVendedor.Click += new System.EventHandler(this.btnEliminarVendedor_Click);
             // 
             // txtIdVendedorEliminar
             // 

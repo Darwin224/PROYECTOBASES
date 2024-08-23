@@ -45,15 +45,18 @@ namespace PROYECTOBASES.Presentacion
             }
             else if (rdbCrear.Checked && rdbVendedor.Checked)
             {
-                // Aquí puedes implementar la lógica para abrir el formulario de crear proveedor
+                Frm_CrearVendedor formularioCrearVendedor = new Frm_CrearVendedor();
+                formularioCrearVendedor.Show();
             }
             else if (rdbEliminar.Checked && rdbVendedor.Checked)
             {
-                // Aquí puedes implementar la lógica para abrir el formulario de eliminar proveedor
+                Frm_EliminarVendedor formularioEliminarVendedor = new Frm_EliminarVendedor();
+                formularioEliminarVendedor.Show();
             }
             else if (rdbModificar.Checked && rdbVendedor.Checked)
             {
-                // Aquí puedes implementar la lógica para abrir el formulario de modificar proveedor
+                Frm_ModificarVendedor formularioModificarVendedor = new Frm_ModificarVendedor();
+                formularioModificarVendedor.Show();
             }
             else if (rdbCrear.Checked && rdbProducto.Checked)
             {

@@ -47,7 +47,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Datos\conexion.cs" />
+    <Compile Include="Datos\D_Producto.cs" />
     <Compile Include="Datos\D_Tienda.cs" />
+    <Compile Include="Datos\D_Vendedor.cs" />
     <Compile Include="Entidades\E_Tienda.cs" />
     <Compile Include="Presentacion\Frm_CrearTienda.cs">
       <SubType>Form</SubType>

@@ -24,8 +24,29 @@ namespace PROYECTOBASES.Presentacion
 
         private void btnCrearVendedor_Click(object sender, EventArgs e)
         {
+            try
+            {
+                // Recuperar los valores de los TextBox
+                string nombre = txtNombreVendedor.Text.Trim();
+                string correo = txtCorreoVendedor.Text.Trim();
+                string telefono = txtTelefonoVendedor.Text.Trim();
 
+                // Crear una instancia de VendedorService
+                VendedorService vendedorService = new VendedorService();
+
+                // Llamar al método para crear el vendedor
+                vendedorService.CrearVendedor(nombre, correo, telefono);
+
+                // Mostrar un mensaje de éxito
+                MessageBox.Show("El vendedor ha sido creado exitosamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch (Exception ex)
+            {
+                // Manejar cualquier error que ocurra durante el proceso
+                MessageBox.Show("Ocurrió un error al crear el vendedor: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
+
 
         private void label3_Click(object sender, EventArgs e)
         {
