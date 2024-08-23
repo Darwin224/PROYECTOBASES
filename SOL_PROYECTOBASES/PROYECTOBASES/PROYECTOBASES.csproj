@@ -49,6 +49,12 @@
     <Compile Include="Datos\conexion.cs" />
     <Compile Include="Datos\D_Tienda.cs" />
     <Compile Include="Entidades\E_Tienda.cs" />
+    <Compile Include="Presentacion\Frm_CrearTienda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Frm_CrearTienda.Designer.cs">
+      <DependentUpon>Frm_CrearTienda.cs</DependentUpon>
+    </Compile>
     <Compile Include="Presentacion\Frm_CrearVendedor.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -61,7 +67,9 @@
     <Compile Include="Presentacion\Frm_EliminarTienda.Designer.cs">
       <DependentUpon>Frm_EliminarTienda.cs</DependentUpon>
     </Compile>
-    <Compile Include="Presentacion\Frm_EliminarVendedor.cs" />
+    <Compile Include="Presentacion\Frm_EliminarVendedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Presentacion\Frm_EliminarVendedor.Designer.cs">
       <DependentUpon>Frm_EliminarVendedor.cs</DependentUpon>
     </Compile>
@@ -83,14 +91,11 @@
     <Compile Include="Presentacion\Frm_Principal.Designer.cs">
       <DependentUpon>Frm_Principal.cs</DependentUpon>
     </Compile>
-    <Compile Include="Presentacion\Frm_Tienda.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Presentacion\Frm_Tienda.Designer.cs">
-      <DependentUpon>Frm_Tienda.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Presentacion\Frm_CrearTienda.resx">
+      <DependentUpon>Frm_CrearTienda.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\Frm_CrearVendedor.resx">
       <DependentUpon>Frm_CrearVendedor.cs</DependentUpon>
     </EmbeddedResource>
@@ -108,9 +113,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\Frm_Principal.resx">
       <DependentUpon>Frm_Principal.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Presentacion\Frm_Tienda.resx">
-      <DependentUpon>Frm_Tienda.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -2,7 +2,6 @@ C:\Users\darwi\Desktop\Accesos directos\UNAH\basesI\PROYECTOB\SOL_PROYECTOBASES\
 C:\Users\darwi\Desktop\Accesos directos\UNAH\basesI\PROYECTOB\SOL_PROYECTOBASES\PROYECTOBASES\bin\Debug\PROYECTOBASES.exe
 C:\Users\darwi\Desktop\Accesos directos\UNAH\basesI\PROYECTOB\SOL_PROYECTOBASES\PROYECTOBASES\bin\Debug\PROYECTOBASES.pdb
 C:\Users\darwi\Desktop\Accesos directos\UNAH\basesI\PROYECTOB\SOL_PROYECTOBASES\PROYECTOBASES\obj\Debug\PROYECTOBASES.csproj.AssemblyReference.cache
-C:\Users\darwi\Desktop\Accesos directos\UNAH\basesI\PROYECTOB\SOL_PROYECTOBASES\PROYECTOBASES\obj\Debug\PROYECTOBASES.Presentacion.Frm_Tienda.resources
 C:\Users\darwi\Desktop\Accesos directos\UNAH\basesI\PROYECTOB\SOL_PROYECTOBASES\PROYECTOBASES\obj\Debug\PROYECTOBASES.Properties.Resources.resources
 C:\Users\darwi\Desktop\Accesos directos\UNAH\basesI\PROYECTOB\SOL_PROYECTOBASES\PROYECTOBASES\obj\Debug\PROYECTOBASES.csproj.GenerateResource.cache
 C:\Users\darwi\Desktop\Accesos directos\UNAH\basesI\PROYECTOB\SOL_PROYECTOBASES\PROYECTOBASES\obj\Debug\PROYECTOBASES.csproj.CoreCompileInputs.cache
@@ -11,3 +10,7 @@ C:\Users\darwi\Desktop\Accesos directos\UNAH\basesI\PROYECTOB\SOL_PROYECTOBASES\
 C:\Users\darwi\Desktop\Accesos directos\UNAH\basesI\PROYECTOB\SOL_PROYECTOBASES\PROYECTOBASES\obj\Debug\PROYECTOBASES.Presentacion.Frm_Principal.resources
 C:\Users\darwi\Desktop\Accesos directos\UNAH\basesI\PROYECTOB\SOL_PROYECTOBASES\PROYECTOBASES\obj\Debug\PROYECTOBASES.Presentacion.Frm_EliminarTienda.resources
 C:\Users\darwi\Desktop\Accesos directos\UNAH\basesI\PROYECTOB\SOL_PROYECTOBASES\PROYECTOBASES\obj\Debug\PROYECTOBASES.Presentacion.Frm_ModificarTienda.resources
+C:\Users\darwi\Desktop\Accesos directos\UNAH\basesI\PROYECTOB\SOL_PROYECTOBASES\PROYECTOBASES\obj\Debug\PROYECTOBASES.Presentacion.Frm_CrearTienda.resources
+C:\Users\darwi\Desktop\Accesos directos\UNAH\basesI\PROYECTOB\SOL_PROYECTOBASES\PROYECTOBASES\obj\Debug\PROYECTOBASES.Presentacion.Frm_CrearVendedor.resources
+C:\Users\darwi\Desktop\Accesos directos\UNAH\basesI\PROYECTOB\SOL_PROYECTOBASES\PROYECTOBASES\obj\Debug\PROYECTOBASES.Presentacion.Frm_EliminarVendedor.resources
+C:\Users\darwi\Desktop\Accesos directos\UNAH\basesI\PROYECTOB\SOL_PROYECTOBASES\PROYECTOBASES\obj\Debug\PROYECTOBASES.Presentacion.Frm_ModificarVendedor.resources
