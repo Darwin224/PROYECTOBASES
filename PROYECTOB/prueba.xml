@@ -1,0 +1,30 @@
+<!DOCTYPE biblioteca [
+    <!ELEMENT biblioteca (libro+)>
+    <!ELEMENT libro (titulo, autor, año, genero)>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT autor (#PCDATA)>
+    <!ELEMENT año (#PCDATA)>
+    <!ELEMENT genero (#PCDATA)>
+    <!ATTLIST libro id ID #REQUIRED>
+]>
+
+<biblioteca>
+    <libro id="1">
+        <titulo>El Quijote</titulo>
+        <autor>Miguel de Cervantes</autor>
+        <año>1605</año>
+        <genero>Novela</genero>
+    </libro>
+    <libro id="2">
+        <titulo>El Principito</titulo>
+        <autor>Antonie de Saint</autor>
+        <año>2000</año>
+        <genero>Novela</genero>
+    </libro>
+     <libro id="3">
+        <titulo>1984</titulo>
+        <autor>George Orwell</autor>
+        <genero>Novela</genero>
+        <año>1949</año>
+    </libro>
+</biblioteca>
