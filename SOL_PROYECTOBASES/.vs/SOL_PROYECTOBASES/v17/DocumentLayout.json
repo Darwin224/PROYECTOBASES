@@ -3,23 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\darwi\\Desktop\\Accesos directos\\UNAH\\basesI\\PROYECTOB\\SOL_PROYECTOBASES\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FD35F370-2354-4724-8A71-CB833DC51A83}|PROYECTOBASES\\PROYECTOBASES.csproj|c:\\users\\darwi\\desktop\\accesos directos\\unah\\basesi\\proyectob\\sol_proyectobases\\proyectobases\\presentacion\\frm_modificarvendedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD35F370-2354-4724-8A71-CB833DC51A83}|PROYECTOBASES\\PROYECTOBASES.csproj|solutionrelative:proyectobases\\presentacion\\frm_modificarvendedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD35F370-2354-4724-8A71-CB833DC51A83}|PROYECTOBASES\\PROYECTOBASES.csproj|c:\\users\\darwi\\desktop\\accesos directos\\unah\\basesi\\proyectob\\sol_proyectobases\\proyectobases\\presentacion\\frm_modificarvendedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FD35F370-2354-4724-8A71-CB833DC51A83}|PROYECTOBASES\\PROYECTOBASES.csproj|solutionrelative:proyectobases\\presentacion\\frm_modificarvendedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD35F370-2354-4724-8A71-CB833DC51A83}|PROYECTOBASES\\PROYECTOBASES.csproj|c:\\users\\darwi\\desktop\\accesos directos\\unah\\basesi\\proyectob\\sol_proyectobases\\proyectobases\\presentacion\\frm_crearvendedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FD35F370-2354-4724-8A71-CB833DC51A83}|PROYECTOBASES\\PROYECTOBASES.csproj|solutionrelative:proyectobases\\presentacion\\frm_crearvendedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD35F370-2354-4724-8A71-CB833DC51A83}|PROYECTOBASES\\PROYECTOBASES.csproj|c:\\users\\darwi\\desktop\\accesos directos\\unah\\basesi\\proyectob\\sol_proyectobases\\proyectobases\\presentacion\\frm_eliminarvendedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD35F370-2354-4724-8A71-CB833DC51A83}|PROYECTOBASES\\PROYECTOBASES.csproj|solutionrelative:proyectobases\\presentacion\\frm_eliminarvendedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD35F370-2354-4724-8A71-CB833DC51A83}|PROYECTOBASES\\PROYECTOBASES.csproj|C:\\Users\\darwi\\Desktop\\Accesos directos\\UNAH\\basesI\\PROYECTOB\\SOL_PROYECTOBASES\\proyectobases\\presentacion\\frm_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{FD35F370-2354-4724-8A71-CB833DC51A83}|PROYECTOBASES\\PROYECTOBASES.csproj|c:\\users\\darwi\\desktop\\accesos directos\\unah\\basesi\\proyectob\\sol_proyectobases\\proyectobases\\presentacion\\frm_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FD35F370-2354-4724-8A71-CB833DC51A83}|PROYECTOBASES\\PROYECTOBASES.csproj|solutionrelative:proyectobases\\presentacion\\frm_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -27,8 +11,32 @@
       "RelativeMoniker": "D:0:0:{FD35F370-2354-4724-8A71-CB833DC51A83}|PROYECTOBASES\\PROYECTOBASES.csproj|solutionrelative:proyectobases\\presentacion\\frm_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD35F370-2354-4724-8A71-CB833DC51A83}|PROYECTOBASES\\PROYECTOBASES.csproj|c:\\users\\darwi\\desktop\\accesos directos\\unah\\basesi\\proyectob\\sol_proyectobases\\proyectobases\\presentacion\\frm_eliminarvendedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FD35F370-2354-4724-8A71-CB833DC51A83}|PROYECTOBASES\\PROYECTOBASES.csproj|solutionrelative:proyectobases\\presentacion\\frm_eliminarvendedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{FD35F370-2354-4724-8A71-CB833DC51A83}|PROYECTOBASES\\PROYECTOBASES.csproj|c:\\users\\darwi\\desktop\\accesos directos\\unah\\basesi\\proyectob\\sol_proyectobases\\proyectobases\\presentacion\\frm_modificarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD35F370-2354-4724-8A71-CB833DC51A83}|PROYECTOBASES\\PROYECTOBASES.csproj|solutionrelative:proyectobases\\presentacion\\frm_modificarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD35F370-2354-4724-8A71-CB833DC51A83}|PROYECTOBASES\\PROYECTOBASES.csproj|c:\\users\\darwi\\desktop\\accesos directos\\unah\\basesi\\proyectob\\sol_proyectobases\\proyectobases\\presentacion\\frm_modificarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FD35F370-2354-4724-8A71-CB833DC51A83}|PROYECTOBASES\\PROYECTOBASES.csproj|solutionrelative:proyectobases\\presentacion\\frm_modificarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD35F370-2354-4724-8A71-CB833DC51A83}|PROYECTOBASES\\PROYECTOBASES.csproj|c:\\users\\darwi\\desktop\\accesos directos\\unah\\basesi\\proyectob\\sol_proyectobases\\proyectobases\\datos\\d_producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD35F370-2354-4724-8A71-CB833DC51A83}|PROYECTOBASES\\PROYECTOBASES.csproj|solutionrelative:proyectobases\\datos\\d_producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD35F370-2354-4724-8A71-CB833DC51A83}|PROYECTOBASES\\PROYECTOBASES.csproj|c:\\users\\darwi\\desktop\\accesos directos\\unah\\basesi\\proyectob\\sol_proyectobases\\proyectobases\\presentacion\\frm_crearproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FD35F370-2354-4724-8A71-CB833DC51A83}|PROYECTOBASES\\PROYECTOBASES.csproj|solutionrelative:proyectobases\\presentacion\\frm_crearproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD35F370-2354-4724-8A71-CB833DC51A83}|PROYECTOBASES\\PROYECTOBASES.csproj|c:\\users\\darwi\\desktop\\accesos directos\\unah\\basesi\\proyectob\\sol_proyectobases\\proyectobases\\presentacion\\frm_eliminarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FD35F370-2354-4724-8A71-CB833DC51A83}|PROYECTOBASES\\PROYECTOBASES.csproj|solutionrelative:proyectobases\\presentacion\\frm_eliminarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD35F370-2354-4724-8A71-CB833DC51A83}|PROYECTOBASES\\PROYECTOBASES.csproj|c:\\users\\darwi\\desktop\\accesos directos\\unah\\basesi\\proyectob\\sol_proyectobases\\proyectobases\\presentacion\\frm_crearproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD35F370-2354-4724-8A71-CB833DC51A83}|PROYECTOBASES\\PROYECTOBASES.csproj|solutionrelative:proyectobases\\presentacion\\frm_crearproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD35F370-2354-4724-8A71-CB833DC51A83}|PROYECTOBASES\\PROYECTOBASES.csproj|c:\\users\\darwi\\desktop\\accesos directos\\unah\\basesi\\proyectob\\sol_proyectobases\\proyectobases\\presentacion\\frm_eliminarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD35F370-2354-4724-8A71-CB833DC51A83}|PROYECTOBASES\\PROYECTOBASES.csproj|solutionrelative:proyectobases\\presentacion\\frm_eliminarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,93 +46,123 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Frm_ModificarVendedor.cs",
-              "DocumentMoniker": "C:\\Users\\darwi\\Desktop\\Accesos directos\\UNAH\\basesI\\PROYECTOB\\SOL_PROYECTOBASES\\PROYECTOBASES\\Presentacion\\Frm_ModificarVendedor.cs",
-              "RelativeDocumentMoniker": "PROYECTOBASES\\Presentacion\\Frm_ModificarVendedor.cs",
-              "ToolTip": "C:\\Users\\darwi\\Desktop\\Accesos directos\\UNAH\\basesI\\PROYECTOB\\SOL_PROYECTOBASES\\PROYECTOBASES\\Presentacion\\Frm_ModificarVendedor.cs",
-              "RelativeToolTip": "PROYECTOBASES\\Presentacion\\Frm_ModificarVendedor.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAmwBYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T07:54:37.092Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Frm_CrearVendedor.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\darwi\\Desktop\\Accesos directos\\UNAH\\basesI\\PROYECTOB\\SOL_PROYECTOBASES\\PROYECTOBASES\\Presentacion\\Frm_CrearVendedor.cs",
-              "RelativeDocumentMoniker": "PROYECTOBASES\\Presentacion\\Frm_CrearVendedor.cs",
-              "ToolTip": "C:\\Users\\darwi\\Desktop\\Accesos directos\\UNAH\\basesI\\PROYECTOB\\SOL_PROYECTOBASES\\PROYECTOBASES\\Presentacion\\Frm_CrearVendedor.cs [Dise\u00F1o]",
-              "RelativeToolTip": "PROYECTOBASES\\Presentacion\\Frm_CrearVendedor.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T07:52:41.083Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Frm_ModificarVendedor.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\darwi\\Desktop\\Accesos directos\\UNAH\\basesI\\PROYECTOB\\SOL_PROYECTOBASES\\PROYECTOBASES\\Presentacion\\Frm_ModificarVendedor.cs",
-              "RelativeDocumentMoniker": "PROYECTOBASES\\Presentacion\\Frm_ModificarVendedor.cs",
-              "ToolTip": "C:\\Users\\darwi\\Desktop\\Accesos directos\\UNAH\\basesI\\PROYECTOB\\SOL_PROYECTOBASES\\PROYECTOBASES\\Presentacion\\Frm_ModificarVendedor.cs [Dise\u00F1o]",
-              "RelativeToolTip": "PROYECTOBASES\\Presentacion\\Frm_ModificarVendedor.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T07:52:25.341Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "Frm_Principal.cs",
               "DocumentMoniker": "C:\\Users\\darwi\\Desktop\\Accesos directos\\UNAH\\basesI\\PROYECTOB\\SOL_PROYECTOBASES\\PROYECTOBASES\\Presentacion\\Frm_Principal.cs",
               "RelativeDocumentMoniker": "PROYECTOBASES\\Presentacion\\Frm_Principal.cs",
               "ToolTip": "C:\\Users\\darwi\\Desktop\\Accesos directos\\UNAH\\basesI\\PROYECTOB\\SOL_PROYECTOBASES\\PROYECTOBASES\\Presentacion\\Frm_Principal.cs",
               "RelativeToolTip": "PROYECTOBASES\\Presentacion\\Frm_Principal.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAswDoAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAADwv0kAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T07:47:08.923Z",
+              "WhenOpened": "2024-08-23T08:26:45.206Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Frm_Principal.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\darwi\\Desktop\\Accesos directos\\UNAH\\basesI\\PROYECTOB\\SOL_PROYECTOBASES\\PROYECTOBASES\\Presentacion\\Frm_Principal.cs",
               "RelativeDocumentMoniker": "PROYECTOBASES\\Presentacion\\Frm_Principal.cs",
               "ToolTip": "C:\\Users\\darwi\\Desktop\\Accesos directos\\UNAH\\basesI\\PROYECTOB\\SOL_PROYECTOBASES\\PROYECTOBASES\\Presentacion\\Frm_Principal.cs [Dise\u00F1o]",
               "RelativeToolTip": "PROYECTOBASES\\Presentacion\\Frm_Principal.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T06:30:10.844Z",
+              "WhenOpened": "2024-08-23T08:26:43.159Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Frm_EliminarVendedor.cs",
-              "DocumentMoniker": "C:\\Users\\darwi\\Desktop\\Accesos directos\\UNAH\\basesI\\PROYECTOB\\SOL_PROYECTOBASES\\PROYECTOBASES\\Presentacion\\Frm_EliminarVendedor.cs",
-              "RelativeDocumentMoniker": "PROYECTOBASES\\Presentacion\\Frm_EliminarVendedor.cs",
-              "ToolTip": "C:\\Users\\darwi\\Desktop\\Accesos directos\\UNAH\\basesI\\PROYECTOB\\SOL_PROYECTOBASES\\PROYECTOBASES\\Presentacion\\Frm_EliminarVendedor.cs",
-              "RelativeToolTip": "PROYECTOBASES\\Presentacion\\Frm_EliminarVendedor.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAwwCYAAAAxAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Frm_ModificarProducto.cs",
+              "DocumentMoniker": "C:\\Users\\darwi\\Desktop\\Accesos directos\\UNAH\\basesI\\PROYECTOB\\SOL_PROYECTOBASES\\PROYECTOBASES\\Presentacion\\Frm_ModificarProducto.cs",
+              "RelativeDocumentMoniker": "PROYECTOBASES\\Presentacion\\Frm_ModificarProducto.cs",
+              "ToolTip": "C:\\Users\\darwi\\Desktop\\Accesos directos\\UNAH\\basesI\\PROYECTOB\\SOL_PROYECTOBASES\\PROYECTOBASES\\Presentacion\\Frm_ModificarProducto.cs",
+              "RelativeToolTip": "PROYECTOBASES\\Presentacion\\Frm_ModificarProducto.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAmwCIAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T07:42:47.712Z",
+              "WhenOpened": "2024-08-23T08:24:04.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Frm_ModificarProducto.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\darwi\\Desktop\\Accesos directos\\UNAH\\basesI\\PROYECTOB\\SOL_PROYECTOBASES\\PROYECTOBASES\\Presentacion\\Frm_ModificarProducto.cs",
+              "RelativeDocumentMoniker": "PROYECTOBASES\\Presentacion\\Frm_ModificarProducto.cs",
+              "ToolTip": "C:\\Users\\darwi\\Desktop\\Accesos directos\\UNAH\\basesI\\PROYECTOB\\SOL_PROYECTOBASES\\PROYECTOBASES\\Presentacion\\Frm_ModificarProducto.cs [Dise\u00F1o]",
+              "RelativeToolTip": "PROYECTOBASES\\Presentacion\\Frm_ModificarProducto.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T08:23:08.397Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Frm_EliminarProducto.cs",
+              "DocumentMoniker": "C:\\Users\\darwi\\Desktop\\Accesos directos\\UNAH\\basesI\\PROYECTOB\\SOL_PROYECTOBASES\\PROYECTOBASES\\Presentacion\\Frm_EliminarProducto.cs",
+              "RelativeDocumentMoniker": "PROYECTOBASES\\Presentacion\\Frm_EliminarProducto.cs",
+              "ToolTip": "C:\\Users\\darwi\\Desktop\\Accesos directos\\UNAH\\basesI\\PROYECTOB\\SOL_PROYECTOBASES\\PROYECTOBASES\\Presentacion\\Frm_EliminarProducto.cs",
+              "RelativeToolTip": "PROYECTOBASES\\Presentacion\\Frm_EliminarProducto.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T08:16:36.859Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Frm_EliminarVendedor.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\darwi\\Desktop\\Accesos directos\\UNAH\\basesI\\PROYECTOB\\SOL_PROYECTOBASES\\PROYECTOBASES\\Presentacion\\Frm_EliminarVendedor.cs",
-              "RelativeDocumentMoniker": "PROYECTOBASES\\Presentacion\\Frm_EliminarVendedor.cs",
-              "ToolTip": "C:\\Users\\darwi\\Desktop\\Accesos directos\\UNAH\\basesI\\PROYECTOB\\SOL_PROYECTOBASES\\PROYECTOBASES\\Presentacion\\Frm_EliminarVendedor.cs [Dise\u00F1o]",
-              "RelativeToolTip": "PROYECTOBASES\\Presentacion\\Frm_EliminarVendedor.cs [Dise\u00F1o]",
+              "Title": "Frm_EliminarProducto.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\darwi\\Desktop\\Accesos directos\\UNAH\\basesI\\PROYECTOB\\SOL_PROYECTOBASES\\PROYECTOBASES\\Presentacion\\Frm_EliminarProducto.cs",
+              "RelativeDocumentMoniker": "PROYECTOBASES\\Presentacion\\Frm_EliminarProducto.cs",
+              "ToolTip": "C:\\Users\\darwi\\Desktop\\Accesos directos\\UNAH\\basesI\\PROYECTOB\\SOL_PROYECTOBASES\\PROYECTOBASES\\Presentacion\\Frm_EliminarProducto.cs [Dise\u00F1o]",
+              "RelativeToolTip": "PROYECTOBASES\\Presentacion\\Frm_EliminarProducto.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T07:42:45.769Z",
+              "WhenOpened": "2024-08-23T08:15:06.919Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Frm_CrearProducto.cs",
+              "DocumentMoniker": "C:\\Users\\darwi\\Desktop\\Accesos directos\\UNAH\\basesI\\PROYECTOB\\SOL_PROYECTOBASES\\PROYECTOBASES\\Presentacion\\Frm_CrearProducto.cs",
+              "RelativeDocumentMoniker": "PROYECTOBASES\\Presentacion\\Frm_CrearProducto.cs",
+              "ToolTip": "C:\\Users\\darwi\\Desktop\\Accesos directos\\UNAH\\basesI\\PROYECTOB\\SOL_PROYECTOBASES\\PROYECTOBASES\\Presentacion\\Frm_CrearProducto.cs",
+              "RelativeToolTip": "PROYECTOBASES\\Presentacion\\Frm_CrearProducto.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAACIAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T08:12:05.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "D_Producto.cs",
+              "DocumentMoniker": "C:\\Users\\darwi\\Desktop\\Accesos directos\\UNAH\\basesI\\PROYECTOB\\SOL_PROYECTOBASES\\PROYECTOBASES\\Datos\\D_Producto.cs",
+              "RelativeDocumentMoniker": "PROYECTOBASES\\Datos\\D_Producto.cs",
+              "ToolTip": "C:\\Users\\darwi\\Desktop\\Accesos directos\\UNAH\\basesI\\PROYECTOB\\SOL_PROYECTOBASES\\PROYECTOBASES\\Datos\\D_Producto.cs",
+              "RelativeToolTip": "PROYECTOBASES\\Datos\\D_Producto.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAowFsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T08:10:55.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Frm_CrearProducto.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\darwi\\Desktop\\Accesos directos\\UNAH\\basesI\\PROYECTOB\\SOL_PROYECTOBASES\\PROYECTOBASES\\Presentacion\\Frm_CrearProducto.cs",
+              "RelativeDocumentMoniker": "PROYECTOBASES\\Presentacion\\Frm_CrearProducto.cs",
+              "ToolTip": "C:\\Users\\darwi\\Desktop\\Accesos directos\\UNAH\\basesI\\PROYECTOB\\SOL_PROYECTOBASES\\PROYECTOBASES\\Presentacion\\Frm_CrearProducto.cs [Dise\u00F1o]",
+              "RelativeToolTip": "PROYECTOBASES\\Presentacion\\Frm_CrearProducto.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T08:06:48.572Z",
               "EditorCaption": " [Dise\u00F1o]"
             }
           ]

@@ -37,7 +37,6 @@
             this.rdbProducto = new System.Windows.Forms.RadioButton();
             this.rdbVendedor = new System.Windows.Forms.RadioButton();
             this.btnAceptar = new System.Windows.Forms.Button();
-            this.rdbFactura = new System.Windows.Forms.RadioButton();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -85,11 +84,9 @@
             this.groupBox1.Size = new System.Drawing.Size(219, 169);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.rdbFactura);
             this.groupBox2.Controls.Add(this.rdbTienda);
             this.groupBox2.Controls.Add(this.rdbProducto);
             this.groupBox2.Controls.Add(this.rdbVendedor);
@@ -98,12 +95,11 @@
             this.groupBox2.Size = new System.Drawing.Size(369, 209);
             this.groupBox2.TabIndex = 4;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "groupBox2";
             // 
             // rdbTienda
             // 
             this.rdbTienda.AutoSize = true;
-            this.rdbTienda.Location = new System.Drawing.Point(150, 39);
+            this.rdbTienda.Location = new System.Drawing.Point(146, 56);
             this.rdbTienda.Name = "rdbTienda";
             this.rdbTienda.Size = new System.Drawing.Size(58, 17);
             this.rdbTienda.TabIndex = 3;
@@ -114,7 +110,7 @@
             // rdbProducto
             // 
             this.rdbProducto.AutoSize = true;
-            this.rdbProducto.Location = new System.Drawing.Point(150, 107);
+            this.rdbProducto.Location = new System.Drawing.Point(146, 124);
             this.rdbProducto.Name = "rdbProducto";
             this.rdbProducto.Size = new System.Drawing.Size(68, 17);
             this.rdbProducto.TabIndex = 5;
@@ -125,7 +121,7 @@
             // rdbVendedor
             // 
             this.rdbVendedor.AutoSize = true;
-            this.rdbVendedor.Location = new System.Drawing.Point(150, 73);
+            this.rdbVendedor.Location = new System.Drawing.Point(146, 90);
             this.rdbVendedor.Name = "rdbVendedor";
             this.rdbVendedor.Size = new System.Drawing.Size(71, 17);
             this.rdbVendedor.TabIndex = 4;
@@ -143,17 +139,6 @@
             this.btnAceptar.UseVisualStyleBackColor = true;
             this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
             // 
-            // rdbFactura
-            // 
-            this.rdbFactura.AutoSize = true;
-            this.rdbFactura.Location = new System.Drawing.Point(150, 142);
-            this.rdbFactura.Name = "rdbFactura";
-            this.rdbFactura.Size = new System.Drawing.Size(61, 17);
-            this.rdbFactura.TabIndex = 6;
-            this.rdbFactura.TabStop = true;
-            this.rdbFactura.Text = "Factura";
-            this.rdbFactura.UseVisualStyleBackColor = true;
-            // 
             // Frm_Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -163,7 +148,6 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "Frm_Principal";
-            this.Text = "/";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
@@ -183,6 +167,5 @@
         private System.Windows.Forms.RadioButton rdbProducto;
         private System.Windows.Forms.RadioButton rdbVendedor;
         private System.Windows.Forms.Button btnAceptar;
-        private System.Windows.Forms.RadioButton rdbFactura;
     }
 }

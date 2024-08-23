@@ -51,6 +51,12 @@
     <Compile Include="Datos\D_Tienda.cs" />
     <Compile Include="Datos\D_Vendedor.cs" />
     <Compile Include="Entidades\E_Tienda.cs" />
+    <Compile Include="Presentacion\Frm_CrearProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Frm_CrearProducto.Designer.cs">
+      <DependentUpon>Frm_CrearProducto.cs</DependentUpon>
+    </Compile>
     <Compile Include="Presentacion\Frm_CrearTienda.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,6 +69,12 @@
     <Compile Include="Presentacion\Frm_CrearVendedor.Designer.cs">
       <DependentUpon>Frm_CrearVendedor.cs</DependentUpon>
     </Compile>
+    <Compile Include="Presentacion\Frm_EliminarProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Frm_EliminarProducto.Designer.cs">
+      <DependentUpon>Frm_EliminarProducto.cs</DependentUpon>
+    </Compile>
     <Compile Include="Presentacion\Frm_EliminarTienda.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +86,12 @@
     </Compile>
     <Compile Include="Presentacion\Frm_EliminarVendedor.Designer.cs">
       <DependentUpon>Frm_EliminarVendedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Frm_ModificarProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Frm_ModificarProducto.Designer.cs">
+      <DependentUpon>Frm_ModificarProducto.cs</DependentUpon>
     </Compile>
     <Compile Include="Presentacion\Frm_ModificarTienda.cs">
       <SubType>Form</SubType>
@@ -95,17 +113,26 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Presentacion\Frm_CrearProducto.resx">
+      <DependentUpon>Frm_CrearProducto.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\Frm_CrearTienda.resx">
       <DependentUpon>Frm_CrearTienda.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\Frm_CrearVendedor.resx">
       <DependentUpon>Frm_CrearVendedor.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Frm_EliminarProducto.resx">
+      <DependentUpon>Frm_EliminarProducto.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\Frm_EliminarTienda.resx">
       <DependentUpon>Frm_EliminarTienda.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\Frm_EliminarVendedor.resx">
       <DependentUpon>Frm_EliminarVendedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Frm_ModificarProducto.resx">
+      <DependentUpon>Frm_ModificarProducto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\Frm_ModificarTienda.resx">
       <DependentUpon>Frm_ModificarTienda.cs</DependentUpon>

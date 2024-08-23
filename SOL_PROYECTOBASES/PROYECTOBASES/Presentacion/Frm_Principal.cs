@@ -60,15 +60,18 @@ namespace PROYECTOBASES.Presentacion
             }
             else if (rdbCrear.Checked && rdbProducto.Checked)
             {
-                // Aquí puedes implementar la lógica para abrir el formulario de crear producto
+                Frm_CrearProducto formularioCrearProducto = new Frm_CrearProducto();
+                formularioCrearProducto.Show();
             }
             else if (rdbEliminar.Checked && rdbProducto.Checked)
             {
-                // Aquí puedes implementar la lógica para abrir el formulario de eliminar producto
+                Frm_EliminarProducto formularioEliminarrProducto = new Frm_EliminarProducto();
+                formularioEliminarrProducto.Show();
             }
             else if (rdbModificar.Checked && rdbProducto.Checked)
             {
-                // Aquí puedes implementar la lógica para abrir el formulario de modificar producto
+                Frm_ModificarProducto formularioModificarProducto = new Frm_ModificarProducto();
+                formularioModificarProducto.Show();
             }
             else
             {
