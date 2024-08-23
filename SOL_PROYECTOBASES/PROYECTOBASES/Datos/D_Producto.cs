@@ -14,7 +14,15 @@ public class ProductoService
     }
 
     // Método para crear un producto y un tipo de producto (correspondiente al procedimiento almacenado CrearProductoYTipo)
-    public void CrearProductoYTipo(string productoNombre, string productoTamaño, string productoMarca, string tipoNombre)
+    public void CrearProductoYTipo(
+    string productoNombre,
+    string productoTamaño,
+    string productoMarca,
+    string tipoNombre,
+    int idTienda,
+    decimal precio,
+    int reorden,
+    int cantidad)
     {
         using (SqlConnection connection = _conexion.CrearConexion())
         {
@@ -31,6 +39,10 @@ public class ProductoService
                     command.Parameters.AddWithValue("@productoTamaño", productoTamaño);
                     command.Parameters.AddWithValue("@productoMarca", productoMarca);
                     command.Parameters.AddWithValue("@tipoNombre", tipoNombre);
+                    command.Parameters.AddWithValue("@idTienda", idTienda);
+                    command.Parameters.AddWithValue("@precio", precio);
+                    command.Parameters.AddWithValue("@Reorden", reorden);
+                    command.Parameters.AddWithValue("@Cantidad", cantidad);
 
                     // Ejecutar el procedimiento almacenado
                     command.ExecuteNonQuery();
@@ -51,6 +63,7 @@ public class ProductoService
             }
         }
     }
+
 
     // Método para eliminar un producto (correspondiente al procedimiento almacenado EliminarProducto)
     public void EliminarProducto(int id)

@@ -17,3 +17,4 @@ C:\Users\darwi\Desktop\Accesos directos\UNAH\basesI\PROYECTOB\SOL_PROYECTOBASES\
 C:\Users\darwi\Desktop\Accesos directos\UNAH\basesI\PROYECTOB\SOL_PROYECTOBASES\PROYECTOBASES\obj\Debug\PROYECTOBASES.Presentacion.Frm_CrearProducto.resources
 C:\Users\darwi\Desktop\Accesos directos\UNAH\basesI\PROYECTOB\SOL_PROYECTOBASES\PROYECTOBASES\obj\Debug\PROYECTOBASES.Presentacion.Frm_EliminarProducto.resources
 C:\Users\darwi\Desktop\Accesos directos\UNAH\basesI\PROYECTOB\SOL_PROYECTOBASES\PROYECTOBASES\obj\Debug\PROYECTOBASES.Presentacion.Frm_ModificarProducto.resources
+C:\Users\darwi\Desktop\Accesos directos\UNAH\basesI\PROYECTOB\SOL_PROYECTOBASES\PROYECTOBASES\obj\Debug\PROYECTOBASES.Presentacion.Frm_Inventario.resources

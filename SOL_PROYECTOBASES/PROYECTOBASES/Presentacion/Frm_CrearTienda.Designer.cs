@@ -78,7 +78,7 @@
             // 
             // txtCiudad
             // 
-            this.txtCiudad.Location = new System.Drawing.Point(212, 177);
+            this.txtCiudad.Location = new System.Drawing.Point(212, 164);
             this.txtCiudad.Name = "txtCiudad";
             this.txtCiudad.Size = new System.Drawing.Size(117, 20);
             this.txtCiudad.TabIndex = 4;
@@ -115,7 +115,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(106, 184);
+            this.label4.Location = new System.Drawing.Point(106, 171);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(40, 13);
             this.label4.TabIndex = 8;
@@ -125,7 +125,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(106, 225);
+            this.label5.Location = new System.Drawing.Point(106, 222);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(52, 13);
             this.label5.TabIndex = 9;
@@ -134,7 +134,7 @@
             // 
             // btnCrear
             // 
-            this.btnCrear.Location = new System.Drawing.Point(157, 318);
+            this.btnCrear.Location = new System.Drawing.Point(212, 408);
             this.btnCrear.Name = "btnCrear";
             this.btnCrear.Size = new System.Drawing.Size(135, 40);
             this.btnCrear.TabIndex = 10;
@@ -142,11 +142,11 @@
             this.btnCrear.UseVisualStyleBackColor = true;
             this.btnCrear.Click += new System.EventHandler(this.btnCrear_Click);
             // 
-            // Frm_Tienda
+            // Frm_CrearTienda
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(441, 410);
+            this.ClientSize = new System.Drawing.Size(612, 590);
             this.Controls.Add(this.btnCrear);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -158,7 +158,7 @@
             this.Controls.Add(this.txtHorario);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtNombre);
-            this.Name = "Frm_Tienda";
+            this.Name = "Frm_CrearTienda";
             this.Text = "Frm_Tienda";
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -32,11 +32,26 @@ namespace PROYECTOBASES.Presentacion
                 string marcaProducto = txtMarca.Text.Trim();
                 string nombreTipoProducto = txtTipo.Text.Trim();
 
+                // Obtener valores adicionales para la tienda y producto
+                int idTienda = int.Parse(txtIdTienda.Text.Trim());
+                decimal precio = decimal.Parse(txtPrecio.Text.Trim());
+                int reorden = int.Parse(txtReorden.Text.Trim());
+                int cantidad = int.Parse(txtCantidad.Text.Trim());
+
                 // Crear una instancia de ProductoService
                 ProductoService productoService = new ProductoService();
 
                 // Llamar al método para crear el producto y el tipo de producto
-                productoService.CrearProductoYTipo(nombreProducto, tamañoProducto, marcaProducto, nombreTipoProducto);
+                productoService.CrearProductoYTipo(
+                    nombreProducto,
+                    tamañoProducto,
+                    marcaProducto,
+                    nombreTipoProducto,
+                    idTienda,
+                    precio,
+                    reorden,
+                    cantidad
+                );
 
                 // Mostrar un mensaje de éxito
                 MessageBox.Show("El producto y su tipo han sido creados exitosamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);

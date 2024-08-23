@@ -73,6 +73,11 @@ namespace PROYECTOBASES.Presentacion
                 Frm_ModificarProducto formularioModificarProducto = new Frm_ModificarProducto();
                 formularioModificarProducto.Show();
             }
+            else if (rdbMostrar.Checked)
+            {
+                Frm_Inventario Inventario = new Frm_Inventario();
+                Inventario.Show();
+            }
             else
             {
                 // Mostrar un mensaje si no se ha seleccionado una opción válida

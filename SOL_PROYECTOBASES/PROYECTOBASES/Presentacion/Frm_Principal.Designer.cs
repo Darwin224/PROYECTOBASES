@@ -37,6 +37,7 @@
             this.rdbProducto = new System.Windows.Forms.RadioButton();
             this.rdbVendedor = new System.Windows.Forms.RadioButton();
             this.btnAceptar = new System.Windows.Forms.Button();
+            this.rdbMostrar = new System.Windows.Forms.RadioButton();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -76,6 +77,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.rdbMostrar);
             this.groupBox1.Controls.Add(this.rdbCrear);
             this.groupBox1.Controls.Add(this.rdbModificar);
             this.groupBox1.Controls.Add(this.rdbEliminar);
@@ -139,6 +141,17 @@
             this.btnAceptar.UseVisualStyleBackColor = true;
             this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
             // 
+            // rdbMostrar
+            // 
+            this.rdbMostrar.AutoSize = true;
+            this.rdbMostrar.Location = new System.Drawing.Point(43, 146);
+            this.rdbMostrar.Name = "rdbMostrar";
+            this.rdbMostrar.Size = new System.Drawing.Size(110, 17);
+            this.rdbMostrar.TabIndex = 6;
+            this.rdbMostrar.TabStop = true;
+            this.rdbMostrar.Text = "Mostrar Inventario";
+            this.rdbMostrar.UseVisualStyleBackColor = true;
+            // 
             // Frm_Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -167,5 +180,6 @@
         private System.Windows.Forms.RadioButton rdbProducto;
         private System.Windows.Forms.RadioButton rdbVendedor;
         private System.Windows.Forms.Button btnAceptar;
+        private System.Windows.Forms.RadioButton rdbMostrar;
     }
 }
