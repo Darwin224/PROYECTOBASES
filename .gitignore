@@ -1,0 +1,9 @@
+# Ignorar el directorio .vs
+.vs/
+
+# Ignorar archivos binarios generados por Visual Studio
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+

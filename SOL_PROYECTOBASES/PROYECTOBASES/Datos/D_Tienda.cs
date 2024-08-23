@@ -90,4 +90,43 @@ public class TiendaService
             }
         }
     }
+    public void ModificarTiendaYUbicacion(int id, string nombre, string horario, string pais, string ciudad, string direccion)
+    {
+        using (SqlConnection connection = _conexion.CrearConexion())
+        {
+            try
+            {
+                connection.Open();  // Abrir la conexión
+
+                using (SqlCommand command = new SqlCommand("ModificarTiendaYUbicacion", connection))
+                {
+                    command.CommandType = CommandType.StoredProcedure;
+
+                    // Agregar los parámetros al comando
+                    command.Parameters.AddWithValue("@id", id);
+                    command.Parameters.AddWithValue("@nombre", nombre);
+                    command.Parameters.AddWithValue("@horario", horario);
+                    command.Parameters.AddWithValue("@pais", pais);
+                    command.Parameters.AddWithValue("@ciudad", ciudad);
+                    command.Parameters.AddWithValue("@direccion", direccion);
+
+                    // Ejecutar el procedimiento almacenado
+                    command.ExecuteNonQuery();
+                }
+            }
+            catch (Exception ex)
+            {
+                // Manejar errores de conexión y SQL
+                Console.WriteLine("Ocurrió un error: " + ex.Message);
+                throw;
+            }
+            finally
+            {
+                if (connection.State == ConnectionState.Open)
+                {
+                    connection.Close();
+                }
+            }
+        }
+    }
 }

@@ -53,5 +53,45 @@ namespace PROYECTOBASES.Presentacion
                 MessageBox.Show("Ocurrió un error al crear la tienda: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtDireccion_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtCiudad_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtPais_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtHorario_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -40,7 +40,8 @@ namespace PROYECTOBASES.Presentacion
             }
             else if (rdbModificar.Checked && rdbTienda.Checked)
             {
-                // Aquí puedes implementar la lógica para abrir el formulario de modificar tienda
+                Frm_ModificarTienda formularioModificarTienda = new Frm_ModificarTienda();
+                formularioModificarTienda.Show();
             }
             else if (rdbCrear.Checked && rdbVendedor.Checked)
             {

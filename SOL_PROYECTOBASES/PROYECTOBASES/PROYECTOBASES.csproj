@@ -55,6 +55,12 @@
     <Compile Include="Presentacion\Frm_EliminarTienda.Designer.cs">
       <DependentUpon>Frm_EliminarTienda.cs</DependentUpon>
     </Compile>
+    <Compile Include="Presentacion\Frm_ModificarTienda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Frm_ModificarTienda.Designer.cs">
+      <DependentUpon>Frm_ModificarTienda.cs</DependentUpon>
+    </Compile>
     <Compile Include="Presentacion\Frm_Principal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,6 +77,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Presentacion\Frm_EliminarTienda.resx">
       <DependentUpon>Frm_EliminarTienda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Frm_ModificarTienda.resx">
+      <DependentUpon>Frm_ModificarTienda.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\Frm_Principal.resx">
       <DependentUpon>Frm_Principal.cs</DependentUpon>

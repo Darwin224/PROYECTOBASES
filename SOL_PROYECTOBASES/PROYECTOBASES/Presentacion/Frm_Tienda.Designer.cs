@@ -66,6 +66,7 @@
             this.txtHorario.Name = "txtHorario";
             this.txtHorario.Size = new System.Drawing.Size(117, 20);
             this.txtHorario.TabIndex = 2;
+            this.txtHorario.TextChanged += new System.EventHandler(this.txtHorario_TextChanged);
             // 
             // txtPais
             // 
@@ -73,6 +74,7 @@
             this.txtPais.Name = "txtPais";
             this.txtPais.Size = new System.Drawing.Size(117, 20);
             this.txtPais.TabIndex = 3;
+            this.txtPais.TextChanged += new System.EventHandler(this.txtPais_TextChanged);
             // 
             // txtCiudad
             // 
@@ -80,6 +82,7 @@
             this.txtCiudad.Name = "txtCiudad";
             this.txtCiudad.Size = new System.Drawing.Size(117, 20);
             this.txtCiudad.TabIndex = 4;
+            this.txtCiudad.TextChanged += new System.EventHandler(this.txtCiudad_TextChanged);
             // 
             // txtDireccion
             // 
@@ -87,6 +90,7 @@
             this.txtDireccion.Name = "txtDireccion";
             this.txtDireccion.Size = new System.Drawing.Size(117, 20);
             this.txtDireccion.TabIndex = 5;
+            this.txtDireccion.TextChanged += new System.EventHandler(this.txtDireccion_TextChanged);
             // 
             // label2
             // 
@@ -96,6 +100,7 @@
             this.label2.Size = new System.Drawing.Size(41, 13);
             this.label2.TabIndex = 6;
             this.label2.Text = "Horario";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -105,6 +110,7 @@
             this.label3.Size = new System.Drawing.Size(27, 13);
             this.label3.TabIndex = 7;
             this.label3.Text = "Pais";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
@@ -114,6 +120,7 @@
             this.label4.Size = new System.Drawing.Size(40, 13);
             this.label4.TabIndex = 8;
             this.label4.Text = "Ciudad";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label5
             // 
@@ -123,6 +130,7 @@
             this.label5.Size = new System.Drawing.Size(52, 13);
             this.label5.TabIndex = 9;
             this.label5.Text = "Direccion";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // btnCrear
             // 
