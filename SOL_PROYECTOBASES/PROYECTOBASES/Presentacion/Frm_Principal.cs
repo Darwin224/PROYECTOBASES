@@ -30,7 +30,7 @@ namespace PROYECTOBASES.Presentacion
             if (esCrearSeleccionado && esTiendaSeleccionado)
             {
                 // Abrir el formulario de crear tienda
-                Frm_Tienda formularioCrearTienda = new Frm_Tienda();
+                Frm_CrearTienda formularioCrearTienda = new Frm_CrearTienda();
                 formularioCrearTienda.Show();
             }
             else if (rdbEliminar.Checked && rdbTienda.Checked)

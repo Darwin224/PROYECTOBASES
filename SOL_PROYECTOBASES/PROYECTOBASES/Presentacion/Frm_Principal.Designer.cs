@@ -37,6 +37,7 @@
             this.rdbProducto = new System.Windows.Forms.RadioButton();
             this.rdbVendedor = new System.Windows.Forms.RadioButton();
             this.btnAceptar = new System.Windows.Forms.Button();
+            this.rdbFactura = new System.Windows.Forms.RadioButton();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -88,6 +89,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.rdbFactura);
             this.groupBox2.Controls.Add(this.rdbTienda);
             this.groupBox2.Controls.Add(this.rdbProducto);
             this.groupBox2.Controls.Add(this.rdbVendedor);
@@ -141,6 +143,17 @@
             this.btnAceptar.UseVisualStyleBackColor = true;
             this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
             // 
+            // rdbFactura
+            // 
+            this.rdbFactura.AutoSize = true;
+            this.rdbFactura.Location = new System.Drawing.Point(150, 142);
+            this.rdbFactura.Name = "rdbFactura";
+            this.rdbFactura.Size = new System.Drawing.Size(61, 17);
+            this.rdbFactura.TabIndex = 6;
+            this.rdbFactura.TabStop = true;
+            this.rdbFactura.Text = "Factura";
+            this.rdbFactura.UseVisualStyleBackColor = true;
+            // 
             // Frm_Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -170,5 +183,6 @@
         private System.Windows.Forms.RadioButton rdbProducto;
         private System.Windows.Forms.RadioButton rdbVendedor;
         private System.Windows.Forms.Button btnAceptar;
+        private System.Windows.Forms.RadioButton rdbFactura;
     }
 }

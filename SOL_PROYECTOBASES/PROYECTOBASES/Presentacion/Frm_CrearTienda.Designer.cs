@@ -1,6 +1,6 @@
 ﻿namespace PROYECTOBASES.Presentacion
 {
-    partial class Frm_Tienda
+    partial class Frm_CrearTienda
     {
         /// <summary>
         /// Required designer variable.

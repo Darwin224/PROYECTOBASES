@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PROYECTOBASES.Presentacion
 {
-    public partial class Frm_Tienda : Form
+    public partial class Frm_CrearTienda : Form
     {
-        public Frm_Tienda()
+        public Frm_CrearTienda()
         {
             InitializeComponent();
         }
