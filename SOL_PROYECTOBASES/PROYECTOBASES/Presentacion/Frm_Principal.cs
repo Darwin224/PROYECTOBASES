@@ -78,6 +78,16 @@ namespace PROYECTOBASES.Presentacion
                 Frm_Inventario Inventario = new Frm_Inventario();
                 Inventario.Show();
             }
+            else if (rdbHistorial.Checked)
+            {
+                Frm_Historial Historial = new Frm_Historial();
+                Historial.Show();
+            }
+            else if (rdbComprasCliente.Checked)
+            {
+                Frm_ComprasCliente Compras = new Frm_ComprasCliente();
+                Compras.Show();
+            }
             else
             {
                 // Mostrar un mensaje si no se ha seleccionado una opción válida

@@ -38,6 +38,8 @@
             this.rdbVendedor = new System.Windows.Forms.RadioButton();
             this.btnAceptar = new System.Windows.Forms.Button();
             this.rdbMostrar = new System.Windows.Forms.RadioButton();
+            this.rdbComprasCliente = new System.Windows.Forms.RadioButton();
+            this.rdbHistorial = new System.Windows.Forms.RadioButton();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -77,13 +79,15 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.rdbHistorial);
+            this.groupBox1.Controls.Add(this.rdbComprasCliente);
             this.groupBox1.Controls.Add(this.rdbMostrar);
             this.groupBox1.Controls.Add(this.rdbCrear);
             this.groupBox1.Controls.Add(this.rdbModificar);
             this.groupBox1.Controls.Add(this.rdbEliminar);
             this.groupBox1.Location = new System.Drawing.Point(22, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(219, 169);
+            this.groupBox1.Size = new System.Drawing.Size(219, 281);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             // 
@@ -152,6 +156,28 @@
             this.rdbMostrar.Text = "Mostrar Inventario";
             this.rdbMostrar.UseVisualStyleBackColor = true;
             // 
+            // rdbComprasCliente
+            // 
+            this.rdbComprasCliente.AutoSize = true;
+            this.rdbComprasCliente.Location = new System.Drawing.Point(43, 184);
+            this.rdbComprasCliente.Name = "rdbComprasCliente";
+            this.rdbComprasCliente.Size = new System.Drawing.Size(156, 17);
+            this.rdbComprasCliente.TabIndex = 7;
+            this.rdbComprasCliente.TabStop = true;
+            this.rdbComprasCliente.Text = "Mostrar Compras por cliente";
+            this.rdbComprasCliente.UseVisualStyleBackColor = true;
+            // 
+            // rdbHistorial
+            // 
+            this.rdbHistorial.AutoSize = true;
+            this.rdbHistorial.Location = new System.Drawing.Point(43, 218);
+            this.rdbHistorial.Name = "rdbHistorial";
+            this.rdbHistorial.Size = new System.Drawing.Size(147, 17);
+            this.rdbHistorial.TabIndex = 8;
+            this.rdbHistorial.TabStop = true;
+            this.rdbHistorial.Text = "Historail ventas por tienda";
+            this.rdbHistorial.UseVisualStyleBackColor = true;
+            // 
             // Frm_Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -181,5 +207,7 @@
         private System.Windows.Forms.RadioButton rdbVendedor;
         private System.Windows.Forms.Button btnAceptar;
         private System.Windows.Forms.RadioButton rdbMostrar;
+        private System.Windows.Forms.RadioButton rdbComprasCliente;
+        private System.Windows.Forms.RadioButton rdbHistorial;
     }
 }

@@ -52,6 +52,12 @@
     <Compile Include="Datos\D_Vendedor.cs" />
     <Compile Include="Datos\V_Inventario.cs" />
     <Compile Include="Entidades\E_Tienda.cs" />
+    <Compile Include="Presentacion\Frm_ComprasCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Frm_ComprasCliente.Designer.cs">
+      <DependentUpon>Frm_ComprasCliente.cs</DependentUpon>
+    </Compile>
     <Compile Include="Presentacion\Frm_CrearProducto.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,6 +94,12 @@
     <Compile Include="Presentacion\Frm_EliminarVendedor.Designer.cs">
       <DependentUpon>Frm_EliminarVendedor.cs</DependentUpon>
     </Compile>
+    <Compile Include="Presentacion\Frm_Historial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Frm_Historial.Designer.cs">
+      <DependentUpon>Frm_Historial.cs</DependentUpon>
+    </Compile>
     <Compile Include="Presentacion\Frm_Inventario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -120,6 +132,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Presentacion\Frm_ComprasCliente.resx">
+      <DependentUpon>Frm_ComprasCliente.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\Frm_CrearProducto.resx">
       <DependentUpon>Frm_CrearProducto.cs</DependentUpon>
     </EmbeddedResource>
@@ -137,6 +152,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\Frm_EliminarVendedor.resx">
       <DependentUpon>Frm_EliminarVendedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Frm_Historial.resx">
+      <DependentUpon>Frm_Historial.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\Frm_Inventario.resx">
       <DependentUpon>Frm_Inventario.cs</DependentUpon>

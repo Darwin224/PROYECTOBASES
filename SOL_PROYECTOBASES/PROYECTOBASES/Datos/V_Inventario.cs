@@ -52,4 +52,83 @@ public class VistaService
 
         return dataTable;
     }
+
+
+    public DataTable ObtenerComprasCliente(string nombreVista)
+    {
+        DataTable dataTable = new DataTable();
+
+        using (SqlConnection connection = _conexion.CrearConexion())
+        {
+            try
+            {
+                connection.Open();  // Abrir la conexión
+
+                // Crear el comando SQL para seleccionar datos de la vista
+                using (SqlCommand command = new SqlCommand($"SELECT * FROM {nombreVista}", connection))
+                {
+                    // Crear un adaptador para llenar el DataTable
+                    using (SqlDataAdapter adapter = new SqlDataAdapter(command))
+                    {
+                        adapter.Fill(dataTable);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                // Manejar errores de conexión y SQL
+                MessageBox.Show("Ocurrió un error al obtener datos de la vista: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                throw;
+            }
+            finally
+            {
+                if (connection.State == ConnectionState.Open)
+                {
+                    connection.Close();
+                }
+            }
+        }
+
+        return dataTable;
+    }
+
+    public DataTable ObtenerHistorialVentasPorTienda(int idTienda)
+    {
+        DataTable dataTable = new DataTable();
+
+        using (SqlConnection connection = _conexion.CrearConexion())
+        {
+            try
+            {
+                connection.Open();  // Abrir la conexión
+
+                // Crear el comando SQL para seleccionar datos de la vista con filtro
+                using (SqlCommand command = new SqlCommand("SELECT * FROM HistorialVentasPorTienda WHERE IdTienda = @IdTienda", connection))
+                {
+                    command.Parameters.AddWithValue("@IdTienda", idTienda);
+
+                    // Crear un adaptador para llenar el DataTable
+                    using (SqlDataAdapter adapter = new SqlDataAdapter(command))
+                    {
+                        adapter.Fill(dataTable);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                // Manejar errores de conexión y SQL
+                MessageBox.Show("Ocurrió un error al obtener datos de la vista: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                throw;
+            }
+            finally
+            {
+                if (connection.State == ConnectionState.Open)
+                {
+                    connection.Close();
+                }
+            }
+        }
+
+        return dataTable;
+    }
 }
